@@ -1,0 +1,39 @@
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
+
+  color: var(--main-light);
+  background-color: var(--colorful-text);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  text-align: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+
+  cursor: pointer;
+}
+
+.button--form {
+  display: block;
+  margin: 0 auto;
+
+  transition: background-color 250ms var(--timing-function);
+
+  &:hover,
+  &:focus {
+    background-color: #188CE8;
+  }  
+}
+
+.button--sign {
+  display: flex;
+  align-items: center;
+  height: 50px;
+
+  margin-left: 12px;
+}

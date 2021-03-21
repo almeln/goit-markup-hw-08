@@ -1,0 +1,28 @@
+header {
+  border-bottom: 1px solid #ECECEC;
+}
+
+// .page-header {
+//   @media screen and (min-width: 768px) {
+//     position: fixed;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+
+//     background-color: var(--main-light);
+//     z-index: 1;
+//   }
+// }
+
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-header__menu {
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+}

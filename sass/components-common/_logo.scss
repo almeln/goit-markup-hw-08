@@ -1,0 +1,41 @@
+.logo {
+  display: block;
+  padding-bottom: 16px;
+  padding-top: 16px;
+
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--colorful-text);
+
+  @media screen and (min-width: 768px) {
+    padding-bottom: 26px;
+    padding-top: 26px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 24px;
+    padding-top: 25px;
+
+    font-size: 26px;
+  }
+}
+
+.logo--studio {
+  display: inline;
+  color: var(--dark-logo);
+}
+
+.logo__footer {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.logo__footer--studio {
+  color: var(--main-light);
+  margin-bottom: 0;
+}

@@ -1,0 +1,36 @@
+.clients {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.clients__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+    
+  cursor: pointer;
+  color: var(--social-link-col);
+  border: 1px solid #AFB1B8;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  transition: color 250ms var(--timing-function), border-color 250ms var(--timing-function);
+  
+  &:hover,
+  &:focus {
+    color: var(--colorful-text);
+    border-color: var(--colorful-text);
+  }
+}
+
+.clients__icon {
+  display: block;
+  fill: currentColor;
+}
