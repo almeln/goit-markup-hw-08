@@ -1,28 +1,46 @@
 .sign-up {
-  width: 570px;
-  margin-left: 93px;
+  max-width: 450px;
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+
+  @media screen and (min-width: 1200px) {
+    min-width: 570px;
+    margin-left: 93px;
+    margin-right: 0;
+  }
 }
 
 .sign-up__mail-input {
   display: block;
-  width: 358px;
+  width: 100%;
   height: 50px;
   background-color: transparent;
   padding: 15px 16px;
-
+  margin-bottom: 20px;
+  
   font-family: inherit;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
-
+  
   color: var(--light-text-op60);
   border-radius: 4px;
   border: 1px solid rgba(255, 255, 255, 0.3);
+
+  @media screen and (min-width: 1200px) {
+    min-width: 358px;
+  }
 }
 
 .sign-up__field {
-  display: flex;
+  width: 100%;
+  justify-content: center;
+
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
 }
 
 .sign-up__icon {

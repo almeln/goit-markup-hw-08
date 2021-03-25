@@ -1,7 +1,9 @@
-.portfolio-card {
+.portfolio-set__item {
   border: 1px solid #EEEEEE;
   cursor: pointer;
+}
 
+.portfolio-card {
   &:hover .portfolio-card__overlay {
     transform: translateY(0);
     opacity: 1;
@@ -15,6 +17,13 @@
 .portfolio-card__thumb {
   position: relative;
   overflow: hidden;
+  height: 294px;
+}
+
+.portfolio-card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .portfolio-card__overlay {
@@ -25,7 +34,7 @@
   width: 100%;
   height: 100%;
   background-color: var(--portfolio-back);
-
+  
   transform: translateY(100%);
   transition: transform 250ms var(--timing-function), opacity 250ms var(--timing-function);
   opacity: 0;
@@ -70,7 +79,7 @@
   margin-bottom: 0;
 
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.875;
   color: var(--main-text);
 }
 

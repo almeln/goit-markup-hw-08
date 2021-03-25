@@ -46,20 +46,30 @@
 
   font-family: inherit;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.714;
+  font-size: 12px;
+  line-height: 1.172;
   letter-spacing: 0.03em;
 
   color: var(-main-text);
+
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.714;
+  }
 }
 
 .checkbox__policy {
   font-family: inherit;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.714;
+  font-size: 12px;
+  line-height: 1.172;
   letter-spacing: 0.03em;
 
   color: var(--colorful-text);
   text-decoration: underline;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.714;
+  }
 }
