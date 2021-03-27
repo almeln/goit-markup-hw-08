@@ -17,7 +17,7 @@
 .portfolio-card__thumb {
   position: relative;
   overflow: hidden;
-  height: 294px;
+  max-height: 294px;
 }
 
 .portfolio-card__img {

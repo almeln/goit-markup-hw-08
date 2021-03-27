@@ -23,6 +23,8 @@
 .checkbox__icon {
   border: 2px solid #2a2a2a;
   border-radius: 1px;
+  min-width: 16px;
+  min-height: 15px;
 
   & use {
     display: none;
