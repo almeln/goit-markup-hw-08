@@ -2,23 +2,23 @@
   text-align: center;
   padding-top: 118px;
   padding-bottom: 118px;
-  height: 400px;
-  max-width: 1600px;
+  max-height: 400px;
+  max-width: 480px;
   margin-left: auto;
   margin-right: auto;
 
   background-color: var(--back-dark);
   color: var(--main-light);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
   background-image: linear-gradient(
     to right, 
     rgba(47, 48, 58, 0.4), 
     rgba(47, 48, 58, 0.4)),
-    url(../images/background.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-
+    url(../images/background-mob.jpg);
+  
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -26,7 +26,47 @@
       to right, 
       rgba(47, 48, 58, 0.4), 
       rgba(47, 48, 58, 0.4)),
-      url(../images/background@2x.jpg);
+      url(../images/background-mob@2x.jpg);
+  }
+
+  @media screen and (min-width: 481px) {
+    max-height: 400px;
+    max-width: 768px;
+    background-image: linear-gradient(
+      to right, 
+      rgba(47, 48, 58, 0.4), 
+      rgba(47, 48, 58, 0.4)),
+      url(../images/background-tab.jpg);
+  
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+        to right, 
+        rgba(47, 48, 58, 0.4), 
+        rgba(47, 48, 58, 0.4)),
+        url(../images/background-tab@2x.jpg);
+    }
+  }
+
+  @media screen and (min-width: 769px) {
+    max-height: 600px;
+    max-width: 1600px;
+    background-image: linear-gradient(
+      to right, 
+      rgba(47, 48, 58, 0.4), 
+      rgba(47, 48, 58, 0.4)),
+      url(../images/background.jpg);
+  
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+        to right, 
+        rgba(47, 48, 58, 0.4), 
+        rgba(47, 48, 58, 0.4)),
+        url(../images/background@2x.jpg);
+    }
   }
 
   @media screen and (min-width: 1200px) {
