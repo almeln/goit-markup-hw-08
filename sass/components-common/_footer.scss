@@ -18,7 +18,7 @@ footer {
 }
 
 .footer__nav {
-  @media screen and (max-width: 1199px) {
+  @media screen and (max-width: 767px) {
     margin-bottom: 60px;
   }
 
@@ -31,12 +31,12 @@ footer {
   @media screen and (min-width: 768px) {
     display: flex;
     align-items: baseline;
-    justify-content: space-between;
-    margin-left: 76px;
+    justify-content: space-around;
+    margin-bottom: 60px;
   }
 
   @media screen and (min-width: 1200px) {
-    margin-left: 0;
+    margin-bottom: 0;
   }
 }
 
@@ -70,16 +70,8 @@ footer {
 }
 
 .footer__social {
-  width: 206px;
-  text-align: center;
-  margin: 0 auto;
-
   @media screen and (max-width: 767px) {
     margin-bottom: 60px;
-  }
-
-  @media screen and (min-width: 768px) {
-    margin-left: 165px;
   }
 
   @media screen and (min-width: 1200px) {
